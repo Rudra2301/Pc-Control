@@ -6,12 +6,12 @@
 ![Viajes](https://raw.githubusercontent.com/Elbehiry/Pc-Control/master/screenshots/pccontrol.png)
 
 ## step1
-<p align="cener"> Download [Server File Here](https://drive.google.com/file/d/0B2Zalq2zSY8-RmIyZnpVVmxtZFk/view?usp=sharing)</p>
+Download [Server File Here](https://drive.google.com/file/d/0B2Zalq2zSY8-RmIyZnpVVmxtZFk/view?usp=sharing)
 
 
 ## Contact
 
-    Contact Me If You Have Any Question,Or About Server Code : [Email](m.elbehiry44@gmail.com).
+    Contact Me If You Have Any Question,Or About Server Code: [Email](m.elbehiry44@gmail.com).
 
 
 ## License
