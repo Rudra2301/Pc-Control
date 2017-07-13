@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="10dp"
+    >
+    <TableRow
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:weightSum="4"
+            >
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:text="@string/text_address"
+                />
+
+            <EditText
+                android:id="@+id/scan_address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:editable="false"
+                android:hint="@string/ip"
+                />
+            <Button
+                android:id="@+id/scan_but"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/Scan"
+                />
+        </LinearLayout>
+    </TableRow>
+
+<TableRow>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:padding="10dp"
+
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/name"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="30dp"
+
+            />
+
+        <EditText
+            android:id="@+id/bluetooth_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:hint="@string/name"
+            />
+    </LinearLayout>
+</TableRow>
+<TableRow
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:padding="10dp"
+
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/password"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="10dp"
+
+            />
+
+        <EditText
+            android:id="@+id/dialog_pass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            />
+    </LinearLayout>
+</TableRow>
+    <TableRow>
+        <Button
+            android:id="@+id/add_bluetooth"
+            android:layout_weight="1"
+            android:text="add"
+            android:layout_marginTop="10dp"
+            />
+
+    </TableRow>
+
+
+</TableLayout>
